@@ -1,8 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from pyth import Document
 
 flubber = (
-    1  # This is a dump variable that I am using to switch which graphb is produced
+    1  # This is a dump variable that I am using to switch which graph is produced
 )
 
 if flubber == 0:
@@ -34,3 +35,7 @@ if flubber == 1:
 
 if flubber == 2:
     plt.rcParams["figure.autolayout"] = True
+    plt.rcParams["figure.figsize"] = [7.50, 3.50]
+
+    np.linspace(0, 10, 1000)
+
