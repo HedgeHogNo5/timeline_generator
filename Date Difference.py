@@ -28,7 +28,7 @@ def countLeapYears(d):
     if d.m <= 2:
         years -= 1
 
-    # An year is a leap year if it is a multiple of 4,
+    # A year is a leap year if it is a multiple of 4,
     # multiple of 400 and not a multiple of 100.
     return int(years / 4) - int(years / 100) + int(years / 400)
 
